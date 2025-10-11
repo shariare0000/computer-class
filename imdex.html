@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+</head>
+<body> 
+    <form action="/submit" method="post">
+<fieldset>
+<legend>basic form</legend>
+<label for="username">username</label>
+<input type="text" id="username" name="username" required minlength="8" maxlength="30">
+<br><br>
+    <label for="">email</label>
+<input type="email" id="email" name="email" required>
+<br><br>
+   <label for="age">age</label>
+<input type="number" id="age" name="age" min="18" max="99" required>
+<br><br>
+<label for="password">password;</label>
+<input type="password" id="password" name="password" required pattern="(?=.*\d) (?=.*\[a-z]) (?=.*\[A-Z]) (?=.*\[!@#$%^&*]) .{8, }">
+<br><br>
+  <label for="">select yuour image file</label>
+<input type="file">
+<br><br>
+<label for="">image</label>
+<input type="image">
+<br><br>
+
+
+
+
+
+
+
+<textarea name="" id="" cols="20" rows="10" placeholder="enter your comments"></textarea>
+<button value="submit">submit</button>
+</fieldset>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
