@@ -1,45 +1,55 @@
+ a:link {
+  color:gold;
+}
+a:visited {
+  color: gold;
+}
+a:hover {
+  color:red;
+}
+a:active {
+  color: red;}
+  input:focus {
+  background-color: yellow;
+  font-size: 20px;
+  color: blue;
+}
+/* p{
+    display: none;
+    background-color:greenyellow ;
+    padding: 20px;
+}
+.c1 :hover p{
+    display: block;
+}  */
+.c2 p:first-letter{
+    font-size: 60px;
+color: blue;
 
-    /* Reset default margin/padding */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    /* Navbar container */
-    .navbar {
-      display: flex;
-      justify-content: space-between; /* Logo left, menu right */
-      align-items: center;
-      background-color: #a47a7a;
-      padding: 0 20px;
-    }
-
-    /* Logo section */
-    .navbar .logo img {
-      height: 50px;
-      padding-top: 5px;
-    }
-
-    /* Menu section */
-    .navbar ul {
-      list-style-type: none;
-      display: flex;
-      font-size: 25px;
-      gap: 20px;
-    }
-
-    .navbar ul li a {
-      display: block;
-      padding: 14px 16px;
-      color: white;
-      text-decoration: none;
-      text-align: center;
-      transition: background-color 0.3s;
-    }
-
-    .navbar ul li a:hover {
-      background-color: #eb4343;
-      width: 100%; 
-    }
- 
+}
+.c2 p:first-line{
+    font-size: 30px;
+    color: rgb(23, 167, 85);
+}
+::marker{
+    font-size: 20px;
+    color: blueviolet;
+}
+.c4::selection{
+background-color: aquamarine;
+font-size: 40px;
+color: brown;
+}
+.prant{
+display: flex;
+gap: 70px;
+}
+.child1{
+opacity: .4;
+}
+.child2{
+opacity: 1;
+}
+.child3{
+opacity: .8;
+}
