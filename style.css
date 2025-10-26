@@ -1,0 +1,15 @@
+.navbar .navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    background-color: darkviolet;
+    color: aliceblue;
+    font-size: 20px;
+    transition: ease-in 1s;
+    border-radius: 10px;
+}

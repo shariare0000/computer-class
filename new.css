@@ -1,0 +1,22 @@
+
+.navbar .navbar-nav .nav-item .nav-link{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    transition: ease-in 1s;
+
+}
+
+.card-body1{
+    background-color: rgb(49, 48, 48);
+}
