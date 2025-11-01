@@ -1,15 +1,27 @@
+
 .navbar .navbar-nav .nav-item .nav-link{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     color: black;
-    
+   
 }
 
 
 .navbar .navbar-nav .nav-item .nav-link:hover{
     background-color: darkviolet;
-    color: aliceblue;
-    font-size: 20px;
+    color: antiquewhite;
     transition: ease-in 1s;
-    border-radius: 10px;
+    border-radius: 8px;
 }
+
+.c1{
+    margin:auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.c2{
+    height: 110vh;
+
+}
+
