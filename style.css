@@ -1,27 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    background-color: #FFDAB9;
+}
 
 .navbar .navbar-nav .nav-item .nav-link{
-    font-size: 20px;
-    font-weight: 400;
-    color: black;
+    font-size: 25px;
+    color: rgb(220, 21, 31);
+    padding: 0 20px;
    
 }
 
 
 .navbar .navbar-nav .nav-item .nav-link:hover{
-    background-color: darkviolet;
-    color: antiquewhite;
-    transition: ease-in 1s;
-    border-radius: 8px;
+    background-color: black;
+    color: white;
 }
-
+.banner{
+   padding-top: 25%;
+}
 .c1{
-    margin:auto;
-    align-items: center;
-    justify-content: space-evenly;
+    font-size: 20px;
+    text-align: justify;
 }
-
 .c2{
-    height: 110vh;
-
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
-
