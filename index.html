@@ -1,223 +1,136 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <!-- nav start -->
-<nav class="navbar navbar-expand-lg">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="#"><img src="assets/logo.png" height="25" width="25" alt=""></a>
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="product.html">Product</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="blog.html">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/new.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <!-- navber st -->
+<div class="navbar bg-[#800000] shadow-sm">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabindex="-1"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow ">
+        <li><a href="/index.html">home</a></li>
+      <li>
+        <details>
+          <summary>portfolio</summary>
+          <ul class="p-2">
+            <li><a href="/portfolio.html">portfolio 1</a></li>
+            <li><a>portfolio 2</a></li>
+          </ul>
+        </details>
+      </li>
+      <li><a href="/about.html">about</a></li>
+      <li><a href="/blog.html">blog</a></li>
+      <li><a href="/service.html">service</a></li>
+      <li><a href="/contact.html">contact</a></li>
       </ul>
     </div>
+    <a><img width="50px" height="50px" src="/download.jpg" alt=""></a>
   </div>
-</nav>
- <!-- nav end -->
-<!-- banner start -->
- <div class="container-fluid">
-    <div class="card text-bg-dark">
-  <img src="assets/banner.jpg" class="card-img" alt="...">
-  <div class="card-img-overlay text-center banner">
-    <h1 class="card-title">Welcome to Eco life family</h1>
-    <p class="card-text h4">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p class="card-text"><small>Last updated 3 mins ago</small></p>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+           <li><a href="/index.html">home</a></li>
+      <li>
+        <details>
+          <summary>portfolio</summary>
+          <ul class="p-2">
+            <li><a href="/portfolio.html">portfolio 1</a></li>
+            <li><a>portfolio 2</a></li>
+          </ul>
+        </details>
+      </li>
+      <li><a href="/about.html">about</a></li>
+      <li><a href="/blog.html">blog</a></li>
+      <li><a href="/service.html">service</a></li>
+      <li><a href="/contact.html">contact</a></li>
+    </ul>
+  </div>
+
+</div>
+<!-- navber end -->
+
+<!-- hero part st -->
+<div
+  class="hero min-h-screen"
+  style="background-image: url(/Marvel-Comics-1000-Clayton-Crain-feature.avif);"
+>
+  <div class="hero-overlay"></div>
+  <div class="hero-content text-neutral-content text-center">
+    <div class="max-w-md">
+      <h1 class="mb-5 text-5xl font-bold">MARVEL</h1>
+      <p class="mb-5">
+Marvel refers to the multimedia franchise of comic books, movies, and television shows produced by Marvel Entertainment and its subsidiaries, primarily Marvel Comics and Marvel Studios. The franchise is known for its extensive roster of superheroes and villains, many of whom inhabit a shared universe known as the Marvel Universe.
+      </p>
+      <button class="btn btn-primary">more details</button>
+    </div>
   </div>
 </div>
- </div>
- <!-- banner end -->
+<!-- hero part end -->
 
- <!-- mission start -->
-  <div class="container-fluid">
-    <div class="card text-center ">
+<!-- next part st -->
+<div class="grid grid-cols-3 gap-4 mx-auto justify-item-center mt-5">
+    <div class="card bg-base-100 w-96 shadow-sm">
+  <figure>
+    <img
+      src="/download (1).jpg"
+      alt="Shoes" />
+  </figure>
   <div class="card-body">
-    <h1 class="text-center text-primary">Introduction and Mission</h1>
-   <p class="h4">"EcoLife" can refer to several different organizations, but generally, they are dedicated to environmental sustainability. Examples include ECOLIFE Conservation, which focuses on protecting wildlife and food systems through education and aquaponics; EcoLife Products and ecoLife®, which focus on providing organic and healthy food products through sustainable farming; and others like Ecolife Foundation which works on rural development and welfare in India.</p>
-  </div>
-</div>
-</div>
-  <!-- mission end -->
-<!-- feature product start -->
- <h1 class="text-center text-warning">Our Feature Products</h1>
-<div class="container-fluid">
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card h-100">
-      <img src="assets/vegetable.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Fresh Vegetables</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="assets/fruits.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Fresh Fruits</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="assets/butter.jpg"   class="card-img-top " alt="...">
-      <div class="card-body rounded-circle">
-        <h5 class="card-title">Fresh Butter</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      </div>
-      
+    <h2 class="card-title">deadpool</h2>
+    <p>Deadpool, whose real name is Wade Wilson, is a Marvel Comics antihero known for his humor, violent antics, and unique self-awareness. The character routinely breaks the fourth wall by talking directly to the audience, and he is a popular fixture in comic books, movies, and video games</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">more details</button>
     </div>
   </div>
 </div>
-</div>
-<!-- feature product end -->
-
- <!-- customer review start -->
- <h1 class="text-center text-primary">Testimonial from customers</h1>
-<div class="container-fluid d-flex gap-3 mx-auto ms-5">
-  <div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0 align-items-center">
-    <div class="col-md-4  text-center">
-      <img src="assets/customer1.jpg" 
-           class="img-fluid rounded-circle" 
-           alt="..." 
-           style="width: 120px; height: 120px; object-fit: cover; margin: 10px auto;">
-    </div>
-    <div class="col-md-4  text-center">
-      <div class="card-body">
-        <h5 class="card-title">Mr ......</h5>
-        <p class="card-text">
-          This is a wider card with supporting text below as a natural lead-in to additional content. 
-          This content is a little bit longer.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0 align-items-center">
-    <div class="col-md-4  text-center">
-      <img src="assets/customer1.jpg" 
-           class="img-fluid rounded-circle" 
-           alt="..." 
-           style="width: 120px; height: 120px; object-fit: cover; margin: 10px auto;">
-    </div>
-    <div class="col-md-4  text-center">
-      <div class="card-body">
-        <h5 class="card-title">Mr ......</h5>
-        <p class="card-text">
-          This is a wider card with supporting text below as a natural lead-in to additional content. 
-          This content is a little bit longer.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0 align-items-center">
-    <div class="col-md-4  text-center">
-      <img src="assets/ustomer2.jpg" 
-           class="img-fluid rounded-circle" 
-           alt="..." 
-           style="width: 120px; height: 120px; object-fit: cover; margin: 10px auto;">
-    </div>
-    <div class="col-md-4  text-center">
-      <div class="card-body">
-        <h5 class="card-title">Mrs ......</h5>
-        <p class="card-text">
-          This is a wider card with supporting text below as a natural lead-in to additional content. 
-          This content is a little bit longer.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-</div>
-
-<!-- call to action start -->
- <h1 class="text-center text-warning">Call to Action</h1>
-<div class="container-fluid">
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card h-100">
-      <img src="assets/vegetable.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Fresh Vegetables</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-
-      <button type="button" class="btn btn-outline-success">Shop Now</button>
-      <button type="button" class="btn btn-outline-danger">Learn More</button>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="assets/fruits.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Fresh Fruits</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <button type="button" class="btn btn-outline-success">Shop Now</button>
-      <button type="button" class="btn btn-outline-danger">Learn More</button>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="assets/butter.jpg"   class="card-img-top " alt="...">
-      <div class="card-body rounded-circle">
-        <h5 class="card-title">Fresh Butter</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <button type="button" class="btn btn-outline-success">Shop Now</button>
-      <button type="button" class="btn btn-outline-danger">Learn More</button>
-      </div>
-      
-    </div>
-  </div>
-</div>
-</div> 
-
-
-<!-- footer start -->
-<div class="container-fluid">
-    <div class="card text-center bg-dark text-light">
+    <div class="card bg-base-100 w-96 shadow-sm">
+  <figure>
+    <img
+      src="/download (2).jpg"
+      alt="Shoes" />
+  </figure>
   <div class="card-body">
-   <p class="h3">&copy;-2025 All rights reserved Web Developer Batch-5</p>
+    <h2 class="card-title">Spider-Man</h2>
+    <p>Spider-Man is a fictional superhero who appears in Marvel Comics and various films, television shows, and video games. The character is famously the alter ego of Peter Parker, a young man who gains superhuman abilities after being bitten by a radioactive spider. Guided by the motto "With great power comes great responsibility," he uses his powers to protect New York City as a costumed hero</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">more details</button>
+    </div>
+  </div>
+</div>
+    <div class="card bg-base-100 w-96 shadow-sm">
+  <figure>
+    <img
+      src="/download (3).jpg"
+      alt="Shoes" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">Iron Man</h2>
+    <p>Iron Man refers to the Marvel Comics superhero alter-ego of billionaire industrialist Tony Stark. Outside of the comics, the character is most famously known for his portrayal by actor Robert Downey Jr. in the Marvel Cinematic Universe (MCU) films</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">more details</button>
+    </div>
   </div>
 </div>
 </div>
+
+<!-- next part end -->
+
+<!-- footer st -->
+ <footer class="footer sm:footer-horizontal footer-center bg-[#000000] text-base-content p-4">
+  <aside>
+    <p class="text-[#ffffff]">Copyright © 2025 - All right reserved by ACME Industries Ltd</p>
+  </aside>
+</footer>
 <!-- footer end -->
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
